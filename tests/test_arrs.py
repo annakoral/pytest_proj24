@@ -6,7 +6,7 @@ from utils import arrs
 
 def test_get():
 
-     assert arrs.get([1, 2, 3, 4, 5], 2) == 3
+    assert arrs.get([1, 2, 3, 4, 5], 2) == 3
     assert arrs.get([1, 2, 3, 4, 5], 10, default="Not found") == "Not found"
     assert arrs.get([1, 2, 3, 4, 5], 3) != 5
 
